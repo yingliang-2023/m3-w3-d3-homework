@@ -1,0 +1,45 @@
+/* Nest Nav */
+/* Variables */
+/* Nest Main */
+body {
+  background-color: rgb(218, 170, 14);
+}
+
+main {
+  width: 1350px;
+  min-height: 535px;
+  background-color: rgb(255, 255, 255);
+}
+main #intro-text {
+  background-color: rgb(212, 213, 216);
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+}
+main #intro-text span {
+  font-family: "Sacramento", cursive;
+}
+main #intro-image {
+  position: absolute;
+  width: 10px;
+  display: inline-block;
+}
+nav nav {
+  background-color: rgb(218, 170, 14);
+}
+nav li {
+  list-style: none;
+  display: inline-block;
+  color: rgb(255, 255, 255);
+}
+nav li a {
+  color: rgb(255, 255, 255);
+}
+
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(218, 170, 14);
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

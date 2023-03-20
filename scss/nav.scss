@@ -1,1 +1,19 @@
 /* Nest Nav */
+@mixin navStyle{
+    nav{
+        background-color: rgb(218, 170, 14);
+    }
+        li{
+            list-style: none;
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            
+        }
+
+        li a{
+            color:rgb(255, 255, 255);
+        }
+
+    
+    
+}
