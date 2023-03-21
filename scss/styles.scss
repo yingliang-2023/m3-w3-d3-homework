@@ -8,6 +8,7 @@ $bgbtnColor:rgb(218, 170, 14);
 $introbg:rgb(212, 213, 216);
 $introText:'Sacramento', cursive;
 $white:rgb(255, 255, 255);
+$pText:Arial, Helvetica, Sans-Serif;
 /* Nest Main */
 
 body{
@@ -15,32 +16,44 @@ body{
 }
 
 main {
-    width: 1350px;
-    min-height:535px; 
+    // width: 1350px;
+    width: auto;
+    height: auto;
+    // min-height:535px; 
+    margin:5% 2%;
     background-color:$white ;
-
+   
     #intro-text{
         background-color: $introbg;
         display: inline-block;
         text-align: center;
         margin:10px;
+        padding: 10% 5%;
+        max-height: 696px;
+        min-width: 500px;
         span{
             font-family:$introText;
+            font-size: x-large;
+            padding:15% auto;
             
+        }
+        p{
+            font-family: $pText;
         }
     }
 
-    #intro-image{
-        position:absolute;        
-        
-        width: 10px;
-        display: inline-block;
-    }
-
-    img{
-        // float: right;
-        // width: 80%;
-    }
+   #intro-image{
+       float: right;
+       position: absolute;
+       bottom: 100px;
+       left:880px;
+       
+        // float:right;
+       }
+       img{
+        width: 75%;
+       }
+   
 }
 
 nav{

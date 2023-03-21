@@ -6,8 +6,9 @@ body {
 }
 
 main {
-  width: 1350px;
-  min-height: 535px;
+  width: auto;
+  height: auto;
+  margin: 5% 2%;
   background-color: rgb(255, 255, 255);
 }
 main #intro-text {
@@ -15,16 +16,30 @@ main #intro-text {
   display: inline-block;
   text-align: center;
   margin: 10px;
+  padding: 10% 5%;
+  max-height: 696px;
+  min-width: 500px;
 }
 main #intro-text span {
   font-family: "Sacramento", cursive;
+  font-size: x-large;
+  padding: 15% auto;
+}
+main #intro-text p {
+  font-family: Arial, Helvetica, Sans-Serif;
 }
 main #intro-image {
+  float: right;
   position: absolute;
-  width: 10px;
-  display: inline-block;
+  bottom: 100px;
+  left: 880px;
 }
+main img {
+  width: 75%;
+}
+
 nav nav {
+  margin-top: 20px;
   background-color: rgb(218, 170, 14);
 }
 nav li {
@@ -34,12 +49,16 @@ nav li {
 }
 nav li a {
   color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
 }
 
 button {
   color: rgb(255, 255, 255);
   background-color: rgb(218, 170, 14);
   text-align: center;
+  border: none;
+  padding: 2% 1%;
 }
 
 /*# sourceMappingURL=styles.css.map */
