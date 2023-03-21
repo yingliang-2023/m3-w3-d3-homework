@@ -1,11 +1,17 @@
 {
   "name": "m3-w3-d3-homework",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.59.3",
+    "scss": "^0.2.4"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
